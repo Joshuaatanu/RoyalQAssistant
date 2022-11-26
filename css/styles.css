@@ -1,0 +1,402 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* Fonts */
+@font-face {
+    font-family: CraftWorkGrotesk-Regular;
+    src: url(../font/CraftworkGrotesk-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Poppins-regular;
+    src: url(../font/poppins/Poppins-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: CraftWorkGrotesk-bold;
+    src: url(../font/CraftworkGrotesk-Bold.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: PlayfairDisplay-Bold;
+    src: url(../font/PlayfairDisplay-Bold.ttf);
+    font-display: swap;
+}
+
+body {
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.contact-btn {
+
+    background-color: #000;
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
+.navTextWhite {
+    color: #fff;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(../img/Pexels-Photo-by-lil-artsy.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+#jumbo-txt {
+    font-family: CraftWorkGrotesk-bold;
+    color: #fff;
+}
+
+nav {
+    font-family: Poppins-regular;
+}
+
+.jumbo-heading {
+    font-family: CraftWorkGrotesk-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #FFFFFF;
+}
+
+.jumbo-para {
+    font-family: Poppins-regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+}
+
+.jumbo-button-white {
+    background-color: #fff;
+    width: 202px;
+    height: 74px;
+    border-radius: 5px;
+    border: 0;
+    align-items: center;
+    /* font */
+    font-family: Poppins-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.jumbo-button-white-outline {
+    width: 304px;
+    height: 74px;
+
+
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    /* font */
+    font-family: Poppins-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.container-custom {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.community {
+    /* width: 1319px;
+    height: 289px; */
+    width: 100;
+    height: 100%;
+    background: #FFFFFF;
+    margin-left: 0.06rem;
+
+
+
+    /* background: #FFFFFF;
+    border-radius: 70px; */
+}
+
+.comm-heading {
+    font-family: CraftWorkGrotesk-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+.comm-para {
+    font-family: CraftWorkGrotesk-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 100px;
+    padding-top: 4px;
+    color: #000000;
+}
+
+/* margin */
+.mt-10 {
+    margin-top: 10%;
+}
+
+.nav-mt-custom {
+    margin-top: 6%;
+}
+
+.mt-8 {
+    margin-top: 8%;
+}
+
+.ml-center {
+    margin-left: 50%;
+}
+
+.ml-10 {
+    margin-left: 30%;
+}
+
+.mr-10 {
+    margin-right: 10%;
+}
+
+.ml-c {
+    margin-left: 15%;
+}
+
+/* What we do section */
+#what-we-do h4 {
+    font-family: PlayfairDisplay-Bold;
+    font-size: 40px;
+}
+
+#what-we-do p {
+    font-family: Poppins-regular;
+    color: #727070;
+    font-size: 20px;
+}
+
+#what-we-do h5 {
+    font-family: Poppins-regular;
+    color: #000;
+    font-size: 32px;
+}
+
+#what-we-do button {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    width: 229px;
+    height: 64.43px;
+    font-size: 20px;
+}
+
+.img-container {
+
+    width: 660px;
+    height: 570px;
+    left: 712px;
+    top: 887px;
+
+    background-image: url("../img/whatWeDo.webp");
+    background-size: cover;
+    /* box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25); */
+    border-radius: 10px;
+}
+
+/* Partners sectoin */
+#partners h3 {
+    font-family: CraftWorkGrotesk-Regular;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 48px;
+}
+
+#partners p {
+    font-family: Poppins-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #727070;
+
+
+}
+
+#services h3 {
+    font-family: CraftWorkGrotesk-Regular;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+#services p {
+    font-family: Poppins-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #727070;
+
+}
+
+#services .mycontainer {
+    width: 350px;
+    height: 270px;
+    background-color: black;
+}
+
+#services .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-hero #hero-txt {
+    font-family: CraftWorkGrotesk-bold;
+    color: #000;
+}
+
+#card {
+    transition: ease-in-out 0.5s;
+}
+
+#card:hover {
+    background-color: #5E7DEC;
+    color: #FFFFFF;
+
+}
+
+#services .mycontainer {
+    margin-left: 20px;
+}
+
+.sizing {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -291px;
+    margin-left: -206px;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.card-text {
+    color: #000;
+}
+
+#coming-soon-p {
+    font-family: CraftWorkGrotesk-Regular;
+}
+
+#my-hero{
+    margin-left: 100px;
+}
+#contact-form{
+    margin-left: 100px;
+}
+#contact-form input {
+    width: 691px;
+    height: 63px;
+    color: #727070;
+    background: #EFEFEF;
+    border-radius: 10px;
+    border: 0px;
+}
+
+#contact-form input::placeholder {
+    background: #EFEFEF;
+}
+
+label {
+    font-size: 25px;
+}
+
+select {
+    width: 691px;
+    height: 63px;
+    color: #727070;
+    background: #EFEFEF;
+    border-radius: 10px;
+    border: 0px;
+}
+
+
+#contact-form input:focus {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    width: 1634px;
+    height: 240px;
+    border: 0;
+    background: #EFEFEF;
+    border-radius: 5px;
+}
+
+#contact-form input:focus {
+    outline: none;
+}
+
+#contact-form button {
+    background-color: #000;
+    color: #fff;
+    width: 660px;
+    height: 56px;
+   align-content: center;
+   margin-left: 67px;
+
+}
+#contact-form{
+    font-family:Poppins-regular ;
+}
+.ml-c1{
+    margin-left: 150px ;
+}
