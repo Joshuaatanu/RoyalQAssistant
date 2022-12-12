@@ -212,6 +212,10 @@ nav {
     font-family: PlayfairDisplay-Bold;
     font-size: 40px;
 }
+#what-we-do .wwd-text{
+    margin-left: 75px;
+}
+
 
 #what-we-do p {
     font-family: Poppins-regular;
@@ -240,7 +244,7 @@ nav {
     height: 570px;
     left: 712px;
     top: 887px;
-
+    margin-left: 120px;
     background-image: url("../img/whatWeDo.webp");
     background-size: cover;
     /* box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25); */
@@ -336,12 +340,14 @@ nav {
     font-family: CraftWorkGrotesk-Regular;
 }
 
-#my-hero{
+#my-hero {
     margin-left: 100px;
 }
-#contact-form{
+
+#contact-form {
     margin-left: 100px;
 }
+
 #contact-form input {
     width: 691px;
     height: 63px;
@@ -391,23 +397,72 @@ textarea {
     color: #fff;
     width: 660px;
     height: 56px;
-   align-content: center;
-   margin-left: 67px;
+    align-content: center;
+    margin-left: 67px;
 
 }
-#contact-form{
-    font-family:Poppins-regular ;
+
+#contact-form {
+    font-family: Poppins-regular;
 }
-.ml-c1{
-    margin-left: 150px ;
+
+.ml-c1 {
+    margin-left: 150px;
 }
+
 /* about- us section */
+#about-us {
+    margin-top: 500px;
+}
+
+#about-us h3 {
+    font-family: CraftWorkGrotesk-Regular;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+#about-us p {
+    font-family: Poppins-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #727070;
+
+}
+
+#about-us .line {
+    margin-top: 60px;
+}
+
 #about-us h5 {
     font-family: Poppins-regular;
     color: #000;
     font-size: 32px;
+    
 }
 
+#about-us .img {
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+    background-color: rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+    width: 567px;
+    height: 450px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: url(../img/rectangle_26.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 120px;
+}
+
+#about-us .text-btn{
+    margin-left:  80px ;
+}
 #about-us button {
     background-color: #000;
     color: #fff;
@@ -415,4 +470,107 @@ textarea {
     width: 229px;
     height: 64.43px;
     font-size: 20px;
+}
+
+/* card styling */
+
+.card-container {
+    width: 350px;
+    height: 270px;
+    position: absolute;
+}
+
+.card-bg {
+    background-color: rgba(255, 255, 255, 1);
+    width: 350px;
+    height: 270px;
+    border: 1.55px solid #DEE2E6;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    color: #000;
+}
+.card-bg:hover{
+    background-color: #30D5C8;
+    transition: all 1s ease-in-out;
+    color: #fff;
+}
+
+.icon-img {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 34px;
+    top: 42px;
+}
+
+.e117_27 {
+    border-radius: 500px;
+    background-color: rgba(0, 0, 0, 1);
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.e117_28 {
+    width: 25.600000381469727px;
+    height: 25.600000381469727px;
+    position: absolute;
+    left: 11.199999809265137px;
+    top: 11.199999809265137px;
+}
+
+.e117_29 {
+    background-color: rgba(255, 255, 255, 1);
+    width: 22.399999618530273px;
+    height: 21.600000381469727px;
+    position: absolute;
+    left: 1.600000023841858px;
+    top: 2.4000000953674316px;
+}
+
+.card-heading {
+    color: rgba(0, 0, 0, 1);
+    width: 169px;
+    height: 30px;
+    position: absolute;
+    left: 34px;
+    top: 103px;
+    font-family: Craftwork Grotesk;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 0;
+}
+
+.card-body {
+    color: rgba(0, 0, 0, 1);
+    width: 246px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    top: 146px;
+    font-family: Poppins;
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+.card-link {
+    color: rgba(0, 0, 0, 1);
+    width: 58px;
+    height: 12px;
+    position: absolute;
+    left: 42px;
+    top: 214px;
+    font-family: Craftwork Grotesk;
+    text-align: left;
+    font-size: 10px;
+    letter-spacing: 0;
+}
+
+.line-2 {
+    margin-top: 307px;
 }
