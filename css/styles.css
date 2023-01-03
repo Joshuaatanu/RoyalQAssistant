@@ -1,13 +1,14 @@
 * {
     padding: 0;
     margin: 0;
+    
 }
 
 ::-webkit-scrollbar {
     width: 1px;
 }
 
-::-webkit-scrollbar-track {
+::-webkit-s::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 
@@ -71,6 +72,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 600px;
+    
 }
 
 #jumbo-txt {
@@ -212,8 +214,9 @@ nav {
     font-family: PlayfairDisplay-Bold;
     font-size: 40px;
 }
-#what-we-do .wwd-text{
-    margin-left: 75px;
+
+#what-we-do .wwd-text {
+    margin-left: 298px;
 }
 
 
@@ -242,9 +245,8 @@ nav {
 
     width: 660px;
     height: 570px;
-    left: 712px;
-    top: 887px;
-    margin-left: 120px;
+    padding: 0;
+    margin-left: 20px;
     background-image: url("../img/whatWeDo.webp");
     background-size: cover;
     /* box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25); */
@@ -442,7 +444,7 @@ textarea {
     font-family: Poppins-regular;
     color: #000;
     font-size: 32px;
-    
+
 }
 
 #about-us .img {
@@ -457,12 +459,13 @@ textarea {
     background-image: url(../img/rectangle_26.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 120px;
+    margin-left: 390px;
 }
 
-#about-us .text-btn{
-    margin-left:  80px ;
+#about-us .text-btn {
+    margin-left: 0px;
 }
+
 #about-us button {
     background-color: #000;
     color: #fff;
@@ -488,10 +491,11 @@ textarea {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px; 
+    border-bottom-right-radius: 5px;
     color: #000;
 }
-.card-bg:hover{
+
+.card-bg:hover {
     background-color: #30D5C8;
     transition: all 1s ease-in-out;
     color: #fff;
@@ -573,4 +577,130 @@ textarea {
 
 .line-2 {
     margin-top: 307px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #FAFAFA;
+    margin-top: 100px;
+}
+
+footer p {
+    position: absolute;
+    width: 653px;
+    height: 62px;
+
+    font-family: Poppins-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 120px;
+}
+
+
+
+footer input[type="email"] {
+    width: 351px;
+    height: 58px;
+    padding-right: 50px;
+}
+
+footer input[type="email"]::-webkit-input-placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #00000080;
+    padding-left: 12px;
+}
+
+footer input[type="submit"] {
+    margin-top: 50px;
+    margin-left: -50px;
+    width: 137px;
+    height: 58px;
+    background: #000;
+    color: #fff;
+    border: 0;
+    -webkit-appearance: none;
+}
+
+.footer-logo {
+    margin-left: 117px;
+}
+
+.proud-logo {
+    margin-left: 117px;
+}
+
+footer .logo {
+    margin-top: 75px;
+}
+
+footer ul li a {
+
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+
+}
+
+footer ul {
+    list-style: none;
+    margin-left: 10px;
+}
+
+footer h5::before {
+    content: '';
+    position: absolute;
+    left: 17px;
+    bottom: 146px;
+    background-color: #60b4df;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+footer ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+footer ul li a:hover {
+    color: #a89797;
+    padding-left: 8px;
+    text-decoration: none;
+}
+
+footer .copyright {
+    position: absolute;
+    width: 453px;
+    height: 27px;
+    background-color: #FAFAFA;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #8D8D8D;
+}
+.input-me{
+    margin-left: 90px;
+}
+.joc-p{
+    margin-left: 90px;
+}
+.Quicklinks{
+    margin-left: 30px;
 }
