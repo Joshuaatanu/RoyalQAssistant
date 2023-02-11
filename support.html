@@ -5,45 +5,304 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="Description" content="RoyalqAssistant, investment, contracts, web development">
-    <link rel="preload" href="img/Pexels-Photo-by-lil-artsy.webp" as="image">
-    <link rel="preload" href="img/whatWeDo.webp" as="image">
+
+
     <link rel="preload" href="font/CraftworkGrotesk-Regular.ttf" as="font">
     <link rel="preload" href="font/CraftworkGrotesk-Bold.ttf" as="font">
     <link rel="preload" href="font/PlayfairDisplay-Bold.ttf " as="font">
+    <link rel="preload" href="font/PlayfairDisplay-Regular.ttf " as="font">
     <link rel="preload" href="font/poppins/Poppins-Regular.ttf" as="font">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Home</title>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+    </style>
+    <title>Support</title>
 </head>
-<!-- NavBar -->
-<nav class="navbar navbar-expand-md navbar-dark bg-white p-5 fixed-top">
-    <div class="container-fluid">
-        <a href="index.html" class="navbar-brand"><img src="icons/RoyalQlogo.svg" width="197px" height="36px"
-                alt="roy"></a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#mynav" type="button">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mynav">
-            <ul class="navbar-nav ml-auto ">
-                <li class="nav-item m "><a href="why.html" class="nav-link text-dark">About Us </a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-dark ">Services</a></li>
-                <li class="nav-item"> <a href="support.html" class="nav-link text-dark ">Support</a> </li>
-            </ul>
-            <ul class="navbar-nav ml-auto ">
-                <li class="nav-item"><a href="contact.html" class="nav-link text-white contact-btn pl-4 pr-4">Contact
-                        Us</a></li>
-
-            </ul>
-        </div>
-    </div>
-</nav>
-<!-- End of navbar -->
-
 
 <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-white p-5 fixed-top">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand"><img src="icons/RoyalQlogo.svg" width="197px" height="36px"
+                    alt="roy"></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mynav" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynav">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item m "><a href="why.html" class="nav-link text-dark">About Us </a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link text-dark ">Services</a></li>
+                    <li class="nav-item"> <a href="support.html" class="nav-link text-dark ">Support</a> </li>
+                </ul>
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item"><a href="contact.html"
+                            class="nav-link text-white contact-btn pl-4 pr-4">Contact
+                            Us</a></li>
 
-    <script src="./js/index.js"></script>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Schedule meeting -->
+    <div class="container-fluid mt-10">
+        <h3 class="text-center support-heading mb-5">we're <span class="span-red">here</span> to help</h3>
+
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="search-border">
+                    <input type="search" class="no-border ml-5" placeholder="type keywords to find answer">
+                    <button type="submit" aria-label="search" class="search-button"><img src="icons/search icon.svg"
+                            height="29px" width="29px" alt=""></button>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <h3 class="text-center support-heading " style="margin-top: 100px;">Have any questions ?</h3>
+
+
+        <!-- end Schedule meeting -->
+        <div class="tab mt-5">
+            <button class="tablinks mr-10" onclick="openSupport(event,'General')"> General</button>
+            <button class="tablinks  mr-10" onclick="openSupport(event,'Logistics')">Logistics</button>
+            <button class="tablinks mr-10" onclick="openSupport(event,'webServices')"> Web Services</button>
+            <button class="tablinks mr-10" onclick="openSupport(event,'Consultation')"> Consultation</button>
+            <button class="tablinks mr-10" onclick="openSupport(event,'Payments')">Payments</button>
+        </div>
+
+
+
+        <div id="General" class="tabcontent">
+            <div class="row  ml-5">
+                <div class="col-md-3 ml-5">
+                    <h3>What is your general policy ?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Neque in scelerisque <br>
+                        a quisque dictumst velit ultrices. Augue tristique lectus neque <br>
+                        urna et. Quis ultricies cursus et aliquam nibh. Mauris vitae a mi <br>
+                        volutpat nunc et lectus rutrum. Auctor nunc ipsum aenean <br>
+                        senectus sagittis ornare nisl commodo blandit. Iaculis eu odio <br>
+                        montes arcu neque. Neque vel purus elit purus morbi et <br>
+                        commodo. Ipsum tellus aenean commodo at mauris blandit <br>
+                        praesent sollicitudin. Mi eu mauris.</p>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <h3>Can I change the Time Frame of my contract ?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Ullamcorper <br>
+                        hac aenean egestas purus integer in viverra arcu. <br>
+                        Molestie amet habitant vestibulum sem nulla sit id. Et <br>
+                        cras dolor diam imperdiet vestibulum purus. Tincidunt <br>
+                        convallis lectus interdum odio. Interdum amet tortor <br>
+                        velit blandit risus. Odio quis feugiat vulputate vitae <br>
+                        amet elit scelerisque condimentum vitae. At habitasse <br>
+                        sed eget sagittis lacus.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="Logistics" class="tabcontent">
+            <div class="row  ml-5">
+                <div class="col-md-3 ml-5">
+                    <h3>What is your general policy ?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Neque in scelerisque <br>
+                        a quisque dictumst velit ultrices. Augue tristique lectus neque <br>
+                        urna et. Quis ultricies cursus et aliquam nibh. Mauris vitae a mi <br>
+                        volutpat nunc et lectus rutrum. Auctor nunc ipsum aenean <br>
+                        senectus sagittis ornare nisl commodo blandit. Iaculis eu odio <br>
+                        montes arcu neque. Neque vel purus elit purus morbi et <br>
+                        commodo. Ipsum tellus aenean commodo at mauris blandit <br>
+                        praesent sollicitudin. Mi eu mauris.</p>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <h3>Can I change the Time Frame of my contract ?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Ullamcorper <br>
+                        hac aenean egestas purus integer in viverra arcu. <br>
+                        Molestie amet habitant vestibulum sem nulla sit id. Et <br>
+                        cras dolor diam imperdiet vestibulum purus. Tincidunt <br>
+                        convallis lectus interdum odio. Interdum amet tortor <br>
+                        velit blandit risus. Odio quis feugiat vulputate vitae <br>
+                        amet elit scelerisque condimentum vitae. At habitasse <br>
+                        sed eget sagittis lacus.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="webServices" class="tabcontent">
+            <div class="row ml-5">
+                <div class="col-md-3 ml-5">
+                    <h3>What is your general policy ?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Neque in scelerisque <br>
+                        a quisque dictumst velit ultrices. Augue tristique lectus neque <br>
+                        urna et. Quis ultricies cursus et aliquam nibh. Mauris vitae a mi <br>
+                        volutpat nunc et lectus rutrum. Auctor nunc ipsum aenean <br>
+                        senectus sagittis ornare nisl commodo blandit. Iaculis eu odio <br>
+                        montes arcu neque. Neque vel purus elit purus morbi et <br>
+                        commodo. Ipsum tellus aenean commodo at mauris blandit <br>
+                        praesent sollicitudin. Mi eu mauris.</p>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <h3>Can I change the Time Frame of my contract ?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Ullamcorper <br>
+                        hac aenean egestas purus integer in viverra arcu. <br>
+                        Molestie amet habitant vestibulum sem nulla sit id. Et <br>
+                        cras dolor diam imperdiet vestibulum purus. Tincidunt <br>
+                        convallis lectus interdum odio. Interdum amet tortor <br>
+                        velit blandit risus. Odio quis feugiat vulputate vitae <br>
+                        amet elit scelerisque condimentum vitae. At habitasse <br>
+                        sed eget sagittis lacus.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="Consultation" class="tabcontent">
+            <div class="row  ml-5">
+                <div class="col-md-3 ml-5">
+                    <h3>What is your general policy ?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Neque in scelerisque <br>
+                        a quisque dictumst velit ultrices. Augue tristique lectus neque <br>
+                        urna et. Quis ultricies cursus et aliquam nibh. Mauris vitae a mi <br>
+                        volutpat nunc et lectus rutrum. Auctor nunc ipsum aenean <br>
+                        senectus sagittis ornare nisl commodo blandit. Iaculis eu odio <br>
+                        montes arcu neque. Neque vel purus elit purus morbi et <br>
+                        commodo. Ipsum tellus aenean commodo at mauris blandit <br>
+                        praesent sollicitudin. Mi eu mauris.</p>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <h3>Can I change the Time Frame of my contract ?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Ullamcorper <br>
+                        hac aenean egestas purus integer in viverra arcu. <br>
+                        Molestie amet habitant vestibulum sem nulla sit id. Et <br>
+                        cras dolor diam imperdiet vestibulum purus. Tincidunt <br>
+                        convallis lectus interdum odio. Interdum amet tortor <br>
+                        velit blandit risus. Odio quis feugiat vulputate vitae <br>
+                        amet elit scelerisque condimentum vitae. At habitasse <br>
+                        sed eget sagittis lacus.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="Payments" class="tabcontent">
+            <div class="row  ml-5">
+                <div class="col-md-3 ml-5">
+                    <h3>What is your general policy ?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Neque in scelerisque <br>
+                        a quisque dictumst velit ultrices. Augue tristique lectus neque <br>
+                        urna et. Quis ultricies cursus et aliquam nibh. Mauris vitae a mi <br>
+                        volutpat nunc et lectus rutrum. Auctor nunc ipsum aenean <br>
+                        senectus sagittis ornare nisl commodo blandit. Iaculis eu odio <br>
+                        montes arcu neque. Neque vel purus elit purus morbi et <br>
+                        commodo. Ipsum tellus aenean commodo at mauris blandit <br>
+                        praesent sollicitudin. Mi eu mauris.</p>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <h3>Can I change the Time Frame of my contract ?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Ullamcorper <br>
+                        hac aenean egestas purus integer in viverra arcu. <br>
+                        Molestie amet habitant vestibulum sem nulla sit id. Et <br>
+                        cras dolor diam imperdiet vestibulum purus. Tincidunt <br>
+                        convallis lectus interdum odio. Interdum amet tortor <br>
+                        velit blandit risus. Odio quis feugiat vulputate vitae <br>
+                        amet elit scelerisque condimentum vitae. At habitasse <br>
+                        sed eget sagittis lacus.</p>
+                </div>
+            </div>
+        </div>
+        <section id="customer-care">
+            <div class="holder">
+                <h3>Need Customer <br> Support</h3>
+                <p class="mt-4">
+                    Lorem ipsum dolor sit amet consectetur. Sit nec nisi eget <br>
+                    dapibus dignissim tincidunt diam faucibus. Egestas mollis <br>
+                    pellentesque aliquam ac convallis commodo facilisis <br>
+                    augue. Euismod tellus.
+                </p>
+                
+                <a href="contact.html" class=""><button>Support</button></a>
+            </div>
+        </section>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <h1 class="comm-heading text-center">Join our community</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <p class="mt-5 joc-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                    Imperdiet ut at morbi pharetra mauris venenatis sit augue.</p>
+            </div>
+
+            <div class="col-md-6">
+                <div class="input-me">
+                    <input type="email" placeholder="Email"><input type="submit" value="Subcribe">
+                </div>
+
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-3">
+                <div class="logo">
+                    <img class="footer-logo" src="img/footer_logo.svg" alt="RoyalqAssistant">
+                    <br>
+                    <img class=" proud-logo" src="img/proudly_footer.png" alt="proudly nigerian">
+                </div>
+            </div>
+
+            <div class="col-md-3 Quicklinks">
+                <h5>Quicklinks</h5>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Social Media</h5>
+                <br>
+                <img class="ml-1" src="icons/facebook.png" alt=" facebook icon">
+                <img class="ml-5" src="icons/twitter.png" alt="twiiter icon">
+                <img class="ml-5" src="icons/instagram.svg" alt="instagram icon">
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+
+    </footer>
+
+    <script src="js/index.js"></script>
 
 </body>
 
