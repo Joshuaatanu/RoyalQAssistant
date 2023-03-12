@@ -64,6 +64,12 @@ body {
   background-color: #000;
   padding-left: 10px;
   padding-right: 100px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.contact-btn \:hover {
+  background-color: #494949;
 }
 
 .navTextWhite {
@@ -1031,7 +1037,6 @@ footer .copyright {
   background-image: url(../img/about-page-hero.png);
   background-size: cover;
   height: 100%;
-  
 }
 .bg-img h5 {
   color: #fff;
@@ -1051,27 +1056,54 @@ footer .copyright {
   color: #ffffff;
 }
 
-#discover-more h5{
-  font-family: 'Craftwork Grotesk';
-font-style: normal;
-font-weight: 600;
-font-size: 40px;
+#discover-more h5 {
+  font-family: "Craftwork Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
 
-
-color: #000000;
+  color: #000000;
 }
 .about-page-button {
- 
-width: 282px;
-height: 56px;
+  width: 282px;
+  height: 56px;
 
-color: #fff;
-background: #0C0A0A;
-border-radius: 50px;
+  color: #fff;
+  background: #0c0a0a;
+  border-radius: 50px;
 }
+.my-card h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
 
+  color: #000000;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
 
+  color: #000000;
+}
+.my-card p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
 
+  color: #727070;
+}
+.my-card button{
+  width: 364px;
+height: 56px;
+background-color: #000;
+color: #fff;
+}
 /* optimized for devices */
 @media screen and (max-width: 1024px) {
   .no-border {
