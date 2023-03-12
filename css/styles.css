@@ -844,7 +844,30 @@ footer .copyright {
 
   color: #727070;
 }
+#consulting h5 {
+  font-family: "Craftwork Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
 
+  color: #000000;
+}
+#consulting button {
+  width: 304px;
+  height: 74px;
+  background: #000000;
+  border-radius: 50px;
+  color: #fff;
+}
+#consulting p {
+  font-family: 'Craftwork Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+}
 .hero-services {
   background-color: #d9d9d9;
   width: 1320px;
@@ -1098,11 +1121,11 @@ footer .copyright {
 
   color: #727070;
 }
-.my-card button{
+.my-card button {
   width: 364px;
-height: 56px;
-background-color: #000;
-color: #fff;
+  height: 56px;
+  background-color: #000;
+  color: #fff;
 }
 /* optimized for devices */
 @media screen and (max-width: 1024px) {
