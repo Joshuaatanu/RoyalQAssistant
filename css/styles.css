@@ -340,7 +340,7 @@ nav {
 
 #contact-form {
   margin-left: 100px;
-  padding-right:600px ;
+  padding-right: 600px;
 }
 
 #contact-form input {
@@ -786,24 +786,27 @@ footer .copyright {
 }
 
 #customer-care .holder {
-  background-color: #d2aaa8;
+  background: url(../img/background-div-for\ services\ page.png);
+
   width: 1320px;
   height: 320px;
   position: relative;
   left: 25%;
-  z-index: inherit;
+
   margin-top: 200px;
   margin-bottom: 500px;
-  border-radius: 50px ;
-  padding: 30px  40px 20px 40px; 
+  border-radius: 50px;
+  padding: 30px 40px 20px 40px;
   color: #fff;
 }
-#customer-care a{
+#customer-care img {
+  position: relative;
+}
+#customer-care a {
   text-decoration: none;
   color: #ffff;
- 
 }
-#customer-care button{
+#customer-care button {
   color: #fff;
   background-color: #000;
   width: 276px;
@@ -994,6 +997,80 @@ footer .copyright {
   font-size: 20px;
   letter-spacing: 0;
 }
+
+/* about page */
+#about-page h5 {
+  font-family: "Craftwork Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 128px;
+  line-height: 154px;
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#about-page p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+
+  color: #afafaf;
+}
+#about-page button {
+  width: 265px;
+  height: 68px;
+  color: #fff;
+  background: #000000;
+  border-radius: 50px;
+}
+#about-page-hero .bg-img {
+  background-image: url(../img/about-page-hero.png);
+  background-size: cover;
+  height: 100%;
+  
+}
+.bg-img h5 {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 59px;
+  line-height: 79px;
+}
+.bg-img p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+#discover-more h5{
+  font-family: 'Craftwork Grotesk';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+
+
+color: #000000;
+}
+.about-page-button {
+ 
+width: 282px;
+height: 56px;
+
+color: #fff;
+background: #0C0A0A;
+border-radius: 50px;
+}
+
+
 
 /* optimized for devices */
 @media screen and (max-width: 1024px) {
