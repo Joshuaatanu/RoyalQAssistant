@@ -83,6 +83,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 600px;
+  width: "";
 }
 
 #jumbo-txt {
@@ -220,28 +221,33 @@ nav {
 }
 
 #what-we-do .wwd-text {
-  margin-left: 298px;
+  font-family: Poppins-regular;
+
+  color: #000;
+  font-size: 20px;
 }
 
 #what-we-do p {
-  font-family: Poppins-regular;
-  color: #727070;
+  font-family: PlayfairDisplay-normal;
+
+  color: #000;
   font-size: 20px;
 }
 
 #what-we-do h5 {
   font-family: Poppins-regular;
   color: #000;
-  font-size: 32px;
+  font-size: 30px;
+  justify-items: right;
 }
 
 #what-we-do button {
   background-color: #000;
   color: #fff;
   text-align: center;
-  width: 229px;
-  height: 64.43px;
-  font-size: 20px;
+  width: auto;
+  height: auto;
+  font-size: 15px;
 }
 
 .img-container {
@@ -861,13 +867,13 @@ footer .copyright {
   color: #fff;
 }
 #consulting p {
-  font-family: 'Craftwork Grotesk';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-
+  font-family: "Craftwork Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 }
+
 .hero-services {
   background-color: #d9d9d9;
   width: 1320px;
@@ -1127,8 +1133,13 @@ line-height: 24px;
   background-color: #000;
   color: #fff;
 }
+
+#about-t h5 {
+  font-size: 128px;
+}
+
 /* optimized for devices */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .no-border {
     border: 0;
     width: 125px;
@@ -1216,5 +1227,103 @@ line-height: 24px;
     padding: 2.5px 0 2.5px 0;
     height: auto;
     width: 850px;
+  }
+} */
+@media screen and (max-width: 768px) {
+  #jumbo-txt {
+    font-size: 50px;
+  }
+  .jumbotron {
+    margin-top: 80px;
+    height: auto;
+  }
+  #wwd-btn {
+    font-size: 10px;
+    height: 50px;
+    width: 100px;
+  }
+
+  #what-we-do .img-container {
+    display: none;
+  }
+  #what-we-do h4 {
+    font-size: 20px;
+  }
+  #what-we-do p {
+    font-size: 13px;
+  }
+  #what-we-do h5 {
+    font-size: 15px;
+    margin-top: -100px;
+    margin-left: -100px;
+  }
+  #what-we-do {
+    margin-bottom: ;
+  }
+  #what-we-do .btn {
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    margin-left: -100px;
+  }
+  #services {
+    margin-bottom: -100px;
+  }
+  #services h3 {
+    font-size: 20px;
+  }
+  #services p {
+    font-size: 12px;
+  }
+  #services .container {
+    visibility: hidden;
+  }
+  .about-h3 {
+    font-size: 20px;
+  }
+  #about-t h5 {
+    font-size: 32px;
+    visibility: hidden;
+  }
+  #about-t {
+    display: none;
+  }
+
+  #a p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #a button {
+    display: none;
+  }
+
+  .dis {
+    visibility: hidden;
+  }
+
+  .my-card h5 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 15px;
+
+    color: #000000;
+  }
+  .my-card p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 7.5px;
+    line-height: 11px;
+    /* identical to box height */
+  
+    color: #727070;
+  }
+  .my-card{
+    margin-bottom: 30px;
+  }
+  #discover-more h5{
+    font-size: 35px;
   }
 }
