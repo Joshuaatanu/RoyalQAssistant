@@ -20,7 +20,7 @@
 
 <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-white p-5 fixed-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-white p-5 fixed-top">
         <div class="container-fluid">
             <a href="index.html" class="navbar-brand"><img src="icons/RoyalQlogo.svg" width="197px" height="36px"
                     alt="roy"></a>
@@ -35,7 +35,7 @@
                 </ul>
                 <ul class="navbar-nav ml-auto ">
                     <li class="nav-item"><a href="contact.html"
-                            class="nav-link text-white contact-btn pl-4 pr-4">Contact
+                            class="nav-link text-white contact-btn pl-4  pr-4">Contact
                             Us</a></li>
 
                 </ul>
@@ -47,7 +47,7 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8">
-                <div class=hero-services>
+                <div class=hero-services style="display: none;">
 
 
                     <div class="semi-circle-one"></div>
@@ -120,7 +120,7 @@
                         style="margin-left: 10px; margin-top: -3px;" alt=""></button>
             </div>
 
-            <div class="col-md-6">
+            <div id="hide" class="col-md-6">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
                     Diam mi ultrices aenean mus nec. At blandit rutrum <br>
@@ -140,7 +140,7 @@
 
     <footer>
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-md-6">
                 <h1 class="comm-heading text-center">Join our community</h1>
                 <p class="mt-5 joc-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
@@ -153,8 +153,8 @@
                 </div>
 
             </div>
-        </div>
-        <div class="row mt-5">
+        </div> -->
+        <div class="row mt-5 pt-5">
             <div class="col-md-3">
                 <div class="logo">
                     <img class="footer-logo" src="img/footer_logo.svg" alt="RoyalqAssistant">
@@ -186,7 +186,9 @@
 
 
     <script src="./js/index.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>

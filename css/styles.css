@@ -351,12 +351,12 @@ nav {
 }
 
 #contact-form {
-  margin-left: 100px;
+  margin-left: 300px;
   padding-right: 600px;
 }
 
 #contact-form input {
-  width: 691px;
+  width: 500px;
   height: 63px;
   color: #727070;
   background: #efefef;
@@ -387,11 +387,11 @@ select {
 
 textarea {
   resize: none;
-  width: inherit;
+  width: 1010px;
   height: 240px;
   border: 0;
   background: #efefef;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 #contact-form input:focus {
@@ -1242,6 +1242,11 @@ footer .copyright {
     height: 50px;
     width: 100px;
   }
+  .contact-btn {
+    width: 137px;
+    background-color: ;
+    padding: auto;
+  }
 
   #what-we-do .img-container {
     display: none;
@@ -1317,13 +1322,83 @@ footer .copyright {
     font-size: 7.5px;
     line-height: 11px;
     /* identical to box height */
-  
+
     color: #727070;
   }
-  .my-card{
+  .my-card {
     margin-bottom: 30px;
   }
-  #discover-more h5{
+  #discover-more h5 {
     font-size: 35px;
+  }
+  #hide {
+    display: none;
+  }
+  #contact-form {
+    margin-left: 00px;
+    padding-right: 600px;
+  }
+  #contact-form input {
+    width: 400px;
+    height: 63px;
+    color: #727070;
+    background: #efefef;
+    border-radius: 10px;
+    border: 0px;
+  }
+  textarea {
+    resize: none;
+    width: 400px;
+    height: 240px;
+    border: 0;
+    background: #efefef;
+    border-radius: 10px;
+  }
+  #contact-form button {
+    background-color: #000;
+    color: #fff;
+    width: 400px;
+    height: 56px;
+    align-content: center;
+    margin-left: 67px;
+  }
+  .my-hero {
+    margin-top: 15my-hero #hero-txt {
+      font-family: CraftWorkGrotesk-bold;
+      color: #000;
+    }
+  }
+  .my-hero #hero-txt {
+    font-family: CraftWorkGrotesk-bold;
+    color: #000;
+    font-size: 50px;
+  }
+  .my-hero img {
+    width: 50px;
+    height: 50px;
+  }
+  #customer-care {
+    display: none;
+  }
+  .Quicklinks {
+    display: none;
+  }
+  .footer-logo {
+    margin-left: 20px;
+  }
+  .logo {
+    padding-bottom: 30px;
+  }
+  #social-media {
+    margin-top: 306px;
+    
+  }
+
+  .proud-logo {
+    margin-left: 20px;
+  }
+
+  footer .logo {
+    margin-top: 75px;
   }
 }
